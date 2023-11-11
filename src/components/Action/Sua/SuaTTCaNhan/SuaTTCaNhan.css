@@ -1,0 +1,29 @@
+.Form_SuaTTCN{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: white;
+    padding: 25px;
+    margin: 55px auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Form_SuaTTCN div{
+    width: 85%;
+}
+.btn_Cancel_Submit{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn_doimatkhau{
+    display: flex;
+    gap: 10px;
+    min-width: 257px;
+}

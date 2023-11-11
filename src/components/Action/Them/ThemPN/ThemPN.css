@@ -1,0 +1,50 @@
+.Form_ADD_PN{
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 80%;
+    top: 80px;
+    right: 8px;
+    max-height: calc(100% - 160px);
+    overflow-y: auto;
+    max-width: 80%;
+    min-height: 600px;
+
+}
+
+.Form_ADD_PN table{
+   min-width: 600px;
+   margin-bottom: 40px;
+}
+
+.formNCC_PN{
+    margin: 15px;
+    min-width: 773px;
+    gap: 20px;
+    display: flex;
+}
+.formNCC_PN select,.formNCC_PN input{
+    flex: 1;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.formNCC_PN button{
+    border: none;
+    background-color: #1677ff;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 20px;
+}
+.button_Bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 40px;
+}

@@ -1,0 +1,28 @@
+.Form_ADD_NV {
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+  
+    /* Đảm bảo nội dung luôn ở giữa theo chiều dọc và chiều ngang */
+    left: 38%;
+    width: 70%;
+  
+    /* Tạo ngăn cách trên và dưới khi form ở trạng thái nhỏ */
+    max-height: calc(100% - 160px);
+    overflow-y: auto; /* Cho phép cuộn khi nội dung quá dài */
+    max-width: 80%; /* Giới hạn chiều rộng của form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng để làm nổi bật */
+  }
+  
+.Form_ADD_NV div{
+    width: 100%;
+}
+.btn_Cancel_Submit{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

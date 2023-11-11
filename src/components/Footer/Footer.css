@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+}
+.body_Footer{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,30 @@
+.table__Kho{
+    flex: 1;
+    border: 1px solid rgba(5, 5, 5, 0.06);
+    border-radius: 4px;
+    border-radius: 4px;
+}
+.add_NV_btn{
+    position: relative;
+    height: 56px;
+}
+.btn_add_NV{
+    position: absolute;
+    right: 0;
+}
+
+@keyframes smallToBig {
+    from {width: 0; height: 0;opacity: 0;bottom: 100px;left: 800px;}
+    to{width: 100%;height: 100%;opacity: 1;bottom: 20px;left: 0;}
+}
+.container_FormThemTK{
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    animation: smallToBig 0.3s ;
+    z-index: 999;
+}
+

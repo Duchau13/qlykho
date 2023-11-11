@@ -1,0 +1,21 @@
+.Container{
+    display: flex;
+    gap: 40px;
+    min-height: 600px;
+}
+.Menu__navbar{
+    border: 1px solid rgba(5, 5, 5, 0.06);
+    border-radius: 4px;
+    font-weight: 600;
+    position: fixed;
+    margin-top: 80px;
+}
+.title__table{
+    margin: 20px 0;
+    color: #1677ff;
+    margin-top: 80px;
+}
+.table__content{
+    position: relative;
+    margin-left: 250px;
+}

@@ -1,0 +1,17 @@
+.Form_ADD_NV{
+    background-color: white;
+    padding: 40px;
+    margin: 80px auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Form_ADD_NV div{
+    width: 100%;
+}
+.btn_Cancel_Submit{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
